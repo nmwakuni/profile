@@ -38,7 +38,7 @@ export default async function Home() {
             a fast- paced environment that thrives for organisational and
             personal development. I bring exceptional coaching and
             inter-personal skills to inspire, and technical and business skills
-            to provide superior customer service"
+            to provide superior customer service.
           </p>
         </div>
       </div>
