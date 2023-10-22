@@ -17,13 +17,13 @@ export default async function Home() {
       </div>
       <div>
         <p className="mt-3 text-xl text-gray-300">
-          Welcome to my page. I'm a former Banker who's passionate about
+          Welcome to my page. I am former Banker who is passionate about
           Programming and Web Development. Kindly check out my projects below;
         </p>
       </div>
       <div className="flex md:flex-row flex-col gap-8 mt-8">
         <div className="">
-          <img
+          <Image
             src="/nick.jpg"
             alt="nick"
             width={700}
@@ -71,3 +71,4 @@ export default async function Home() {
 }
 
 export const revalidate = 60;
+
