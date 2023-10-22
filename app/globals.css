@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Tangerine:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&subset=greek,cyrillic");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:wght@300;400;700&display=swap");
+
