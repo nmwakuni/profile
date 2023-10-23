@@ -2,6 +2,7 @@ import "../globals.css";
 import Link from "next/link";
 import { getPages } from "@/sanitty/sanity-utils";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "My Awesome Site",
@@ -23,6 +24,7 @@ export default async function RootLayout({
       <body className="max-w-80 mx-auto">
         <Navbar />
         <main className="py-10">{children}</main>
+        <Footer />
       </body>
     </html>
   );
