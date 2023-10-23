@@ -19,11 +19,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="bg-[url('../public/bg3.jpg')] bg-no-repeat bg-cover bg-opacity-40 bg-center"
+      className="bg-[url('../public/bg3.jpg')] bg-no-repeat bg-cover bg-opacity-40 bg-center min-h-screen"
     >
       <body
         className="{inter.className}
-       max-w-80 mx-auto"
+       max-w-80 mx-auto min-h-screen"
       >
         {children}
       </body>
