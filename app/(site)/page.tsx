@@ -33,12 +33,13 @@ export default async function Home() {
         </div>
         <div className="text-xl bg-gray-600 bg-opacity-70">
           <p className="text-left px-5 content-center mt-5 text-gray-100">
-            Agile, results oriented and highly motivated with eight years of
-            experience in ﬁnance and banking, seeking a challenging position in
-            a fast- paced environment that thrives for organisational and
-            personal development. I bring exceptional coaching and
-            inter-personal skills to inspire, and technical and business skills
-            to provide superior customer service.
+            Dedicated and highly motivated, I am seeking a challenging position
+            in a organization that thrives for personal and organizational
+            development. I bring exceptional work ethic while maximizing my
+            skills to the fullest. My eagerness to learn and broaden my skills
+            each day makes me a great fit for any dynamic organization. For more
+            information regarding my qualifications, feel free to reach out on
+            phone or email, details below.
           </p>
         </div>
       </div>
