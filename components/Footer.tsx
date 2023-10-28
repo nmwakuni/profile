@@ -2,16 +2,20 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-column mt-auto flex-grow-1 justify-between items-center md:flex-row">
+    <footer className="flex flex-col justify-between items-center md:flex-row">
       <div>
-        <p className="text-gray-200 text-md">MOBILE PHONE: +254 738-808-825</p>
+        <p className="text-gray-200 text-md font-bold">
+          Mobile Phone: +254 738-808-825
+        </p>
       </div>
       <div>
-        <p className="text-gray-200 text-md">EMAIL: nmwakuni@gmail.com</p>
+        <p className="text-gray-200 text-md font-bold">
+          Email: nmwakuni@gmail.com
+        </p>
       </div>
       <div>
-        <p className="text-gray-200 text-md">
-          POSTAL ADDRESS: 33-80119, Vipingo, Kenya
+        <p className="text-gray-200 text-md font-bold">
+          Postal Address: 33-80119, Vipingo, Kenya
         </p>
       </div>
     </footer>

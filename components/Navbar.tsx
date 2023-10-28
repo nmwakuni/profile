@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { getPages } from "@/sanitty/sanity-utils";
+import { useState } from "react";
+import Image from "next/image";
 
 const Navbar = async () => {
   const pages = await getPages();
