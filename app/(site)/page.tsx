@@ -34,7 +34,7 @@ export default async function Home() {
         <div className="text-xl bg-gray-600 bg-opacity-70">
           <p className="text-left px-5 content-center mt-5 text-gray-100">
             Dedicated and highly motivated, I am seeking a challenging position
-            in a organization that thrives for personal and organizational
+            in an organization that thrives for personal and organizational
             development. I bring exceptional work ethic while maximizing my
             skills to the fullest. My eagerness to learn and broaden my skills
             each day makes me a great fit for any dynamic organization. For more
