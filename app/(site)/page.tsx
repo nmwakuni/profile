@@ -25,9 +25,10 @@ export default async function Home() {
           <p className="px-5 text-justify mx-8 my-8 text-gray-200">
             I pride myself in doing the utmost best for my customers. It always
             gives me joy to see the smiles on my clients after delivering on
-            their assignments and more. I'd like to believe that the more effort
-            i put in building applications, the more I learn and broaden my
-            knowledge about Web Development. Let's build websites together!!
+            their assignments and more. I&apos;d like to believe that the more
+            effort i put in building applications, the more I learn and broaden
+            my knowledge about Web Development. Let&apos;s build websites
+            together!!
           </p>
         </div>
       </div>
