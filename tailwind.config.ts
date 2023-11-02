@@ -19,6 +19,9 @@ const config: Config = {
         "-1": "-1",
         "-10": "-10",
       },
+      fontFamily: {
+        wdc: ["var(--font-josefin)"],
+      },
     },
   },
 
