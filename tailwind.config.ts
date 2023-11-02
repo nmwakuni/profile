@@ -15,8 +15,13 @@ const config: Config = {
         80: "80%",
         90: "90%",
       },
+      zIndex: {
+        "-1": "-1",
+        "-10": "-10",
+      },
     },
   },
+
   plugins: [],
 };
 export default config;

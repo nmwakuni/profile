@@ -7,22 +7,17 @@ import Image from "next/image";
 const Navbar = async () => {
   const pages = await getPages();
   return (
-    <header className="flex flex-col sm:flex-row items-center justify-between py-5">
+    <header className="flex flex-col sm:flex-row items-center justify-between w-full">
       <div>
-        <Link href="/" className="text-orange-300 text-4xl font-bold">
-          Nicholas Mwakuni
+        <Link href="/" className="text-gray-200 text-3xl font-bold">
+          Portfolio
         </Link>
       </div>
-      <div className="flex items-center gap-5 text-sm font-bold text-orange-300">
-        {pages.map((page) => (
-          <Link
-            key={page._id}
-            href={`/${page.slug}`}
-            className="hover:underline"
-          >
-            {page.title}
-          </Link>
-        ))}
+      <div className="flex items-center gap-5 text-lg hover:text-gray-300 font-bold text-gray-200">
+        <Link href="/">Home</Link>
+        <Link href="/projectspage">Projects</Link>
+        <Link href="/contact">Contact Us</Link>
+        <Link href="/about">About</Link>
       </div>
     </header>
   );

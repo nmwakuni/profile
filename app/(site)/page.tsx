@@ -1,6 +1,7 @@
 import { getProjects } from "@/sanitty/sanity-utils";
 import Image from "next/image";
 import Link from "next/link";
+import Hero from "@/components/Hero";
 
 export default async function Home() {
   const projects = await getProjects();
@@ -8,18 +9,7 @@ export default async function Home() {
   return (
     <div>
       <div>
-        <h1 className="text-4xl font-extrabold">
-          <span className="bg-gradient-to-r from-blue-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-            {" "}
-            Greetings!
-          </span>
-        </h1>
-      </div>
-      <div>
-        <p className="mt-3 text-xl text-gray-300">
-          Welcome to my page. I am former Banker who is passionate about
-          Programming and Web Development. Kindly check out my projects below;
-        </p>
+        <Hero />
       </div>
       <div className="flex md:flex-row flex-col gap-8 mt-8">
         <div className="">
@@ -28,18 +18,16 @@ export default async function Home() {
             alt="nick"
             width={700}
             height={500}
-            className="object-contain shadow-2xl border border-gray-500 w-full"
+            className="rounded-full border border-gray-500 w-full"
           />
         </div>
-        <div className="text-xl bg-gray-600 bg-opacity-70">
-          <p className="text-left px-5 content-center mt-5 text-gray-100">
-            Dedicated and highly motivated, I am seeking a challenging position
-            in an organization that thrives for personal and organizational
-            development. I bring exceptional work ethic while maximizing my
-            skills to the fullest. My eagerness to learn and broaden my skills
-            each day makes me a great fit for any dynamic organization. For more
-            information regarding my qualifications, feel free to reach out on
-            phone or email, details below.
+        <div className="text-xl bg-gray-800 bg-opacity-80">
+          <p className="px-5 text-justify mx-8 my-8 text-gray-200">
+            I pride myself in doing the utmost best for my customers. It always
+            gives me joy to see the smiles on my clients after delivering on
+            their assignments and more. I'd like to believe that the more effort
+            i put in building applications, the more I learn and broaden my
+            knowledge about Web Development. Let's build websites together!!
           </p>
         </div>
       </div>
@@ -72,4 +60,6 @@ export default async function Home() {
 }
 
 export const revalidate = 60;
+
+//bg-gradient-to-r from-blue-400 via-red-500 to-purple-600 bg-clip-text text-transparent"//
 
