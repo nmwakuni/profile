@@ -22,10 +22,16 @@ const config: Config = {
       fontFamily: {
         wdc: ["var(--font-josefin)"],
       },
+      backgroundImage: {
+        "bg-img-1": "url('/about.jpg')",
+        "bg-img-2": "url('/contact.jpg')",
+        "bg-img-3": "url('/bg4.jpg')",
+      },
     },
   },
 
   plugins: [],
 };
+
 export default config;
 
