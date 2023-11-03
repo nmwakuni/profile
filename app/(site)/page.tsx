@@ -27,11 +27,11 @@ export default async function Home() {
             <strong>Need a website</strong> And Don&apos;t know where to start?
           </h2>
           <p className="text-xl xl:regular-20 mt-5 text-white">
-            Don&apos;t hesitate to reach out. My name is Nicholas Mwakuni,
-            I&apos;m a Web Developer. I pride myself in doing the utmost best
-            for my customers. It always gives me joy to see the smiles on my
-            clients after exceeding on their expectations. So don&apos;t worry
-            anymore, let&apos;s build websites together!!
+            Stop worrying anymore! My name is Nicholas Mwakuni, I&apos;m a Web
+            Developer. I pride myself in doing the utmost best for my customers.
+            It always gives me joy to see the smiles on my clients after
+            exceeding on their expectations. So don&apos;t hesitate to reach out
+            and let&apos;s build websites together!!
           </p>
         </div>
       </div>
