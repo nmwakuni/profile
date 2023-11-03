@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="flex">
             <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div className="text-xl pb-3">
-              <p>+254-736-808-925</p>
+              <p>+254-736-808-825</p>
             </div>
           </div>
           <div className="flex">
