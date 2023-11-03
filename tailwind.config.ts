@@ -26,6 +26,7 @@ const config: Config = {
         "bg-img-1": "url('/about.jpg')",
         "bg-img-2": "url('/contact.jpg')",
         "bg-img-3": "url('/bg4.jpg')",
+        pattern: "url('/pattern.png')",
       },
     },
   },
