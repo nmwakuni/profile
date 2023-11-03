@@ -9,7 +9,7 @@ const pricingCard = () => {
           <h3 className="p-4 text-xl">- Basic -</h3>
           <span className="border border-b my-4 mx-auto block w-1/12"></span>
           <p className="py-2 text-3xl font-semibold p-4">KES 7,000</p>
-          <p className="py-2">- 5 Days -</p>
+          <p className="py-2">- 3 Days -</p>
           <p className="py-2">- 3 Pages -</p>
           <p className="py-2">- Responsive Design -</p>
           <p className="py-2">- SEO -</p>
@@ -25,7 +25,7 @@ const pricingCard = () => {
           <h3 className="p-4 text-xl">- Premium -</h3>
           <span className="border border-b my-4 mx-auto block w-1/12"></span>
           <p className="py-2 text-3xl font-semibold p-4">KES 12,000</p>
-          <p className="py-2">- 7 Days -</p>
+          <p className="py-2">- 5 Days -</p>
           <p className="py-2">- 8 Pages -</p>
           <p className="py-2">- Responsive Design -</p>
           <p className="py-2">- Advanced SEO -</p>
@@ -41,8 +41,8 @@ const pricingCard = () => {
           <h3 className="p-4 text-xl">- Business -</h3>
           <span className="border border-b my-4 mx-auto block w-1/12"></span>
           <p className="py-2 text-3xl font-semibold p-4">KES 20,000</p>
-          <p className="py-2">- 10 Days -</p>
-          <p className="py-2">- Max Pages -</p>
+          <p className="py-2">- 7 Days -</p>
+          <p className="py-2">- Unlimited Pages -</p>
           <p className="py-2">- Responsive Design -</p>
           <p className="py-2">- Advanced SEO -</p>
           <p className="py-2">- Highly Interactive -</p>
