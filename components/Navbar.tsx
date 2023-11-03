@@ -10,7 +10,7 @@ const Navbar = async () => {
     <header className="flex flex-col sm:flex-row items-center justify-between w-full">
       <div>
         <Link href="/" className="text-gray-200 text-4xl font-bold">
-          Portfolio
+          TechNiQ
         </Link>
       </div>
       <div className="flex items-center gap-5 text-xl hover:text-gray-300 font-bold text-gray-200">

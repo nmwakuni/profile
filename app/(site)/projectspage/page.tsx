@@ -17,7 +17,7 @@ const projectspaje = async () => {
         </div>
       </div>
 
-      <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="mt-15 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Link
             href={`/projects/${project.slug}`}
@@ -39,7 +39,7 @@ const projectspaje = async () => {
           </Link>
         ))}
       </div>
-      <div className="">
+      <div className="mt-20">
         <PricingCard />
       </div>
     </div>

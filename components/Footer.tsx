@@ -54,8 +54,25 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-1 items-center justify-center">
-          <Image src="/phone.jpg" alt="phones" width={550} height={300} />
+        <div className="grid grid-cols-12 relative items-center text-center ">
+          <div className="react4">
+            <Image
+              src="/react4.png"
+              alt="react"
+              width={600}
+              height={700}
+              className="border "
+            />
+          </div>
+          <div className="react2">
+            <Image
+              src="/react2.png"
+              alt="react"
+              width={370}
+              height={200}
+              className="border"
+            />
+          </div>
         </div>
       </div>
     </footer>
@@ -63,4 +80,8 @@ const Footer = () => {
 };
 
 export default Footer;
+
+/*<div className="flex flex-1 items-center justify-center">
+          <Image src="/phone.jpg" alt="phones" width={550} height={300} />
+        </div>*/
 

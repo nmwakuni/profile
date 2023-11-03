@@ -3,7 +3,7 @@ import React from "react";
 
 const pricingCard = () => {
   return (
-    <div className="w-full px-4 text-gray-200 py-24">
+    <div className="w-full px-4 text-gray-200 py-15">
       <div className="m-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
         <div className="text-center p-4 hover:bg-gray-800 border bg-black border-white">
           <h3 className="p-4 text-xl">- Basic -</h3>

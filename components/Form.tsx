@@ -2,9 +2,9 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="text-gray-200 mb-2">
+    <div className="text-gray-200">
       <div className="">
-        <form className="flex flex-col py-16 px-4 m-auto max-w-screen-sm">
+        <form className="flex flex-col py-5 px-4 m-auto max-w-screen-sm">
           <label>Name</label>
           <input
             type="text"

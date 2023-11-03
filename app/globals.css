@@ -21,3 +21,29 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.react2 {
+  grid-column: 4 / -1;
+  z-index: 5;
+  grid-row: 1;
+}
+
+.react4 {
+  grid-column: 1 / span 8;
+  z-index: 6;
+  grid-row: 1;
+  padding-top: 40%;
+}
+
+.react5 {
+  grid-column: 4 / -1;
+  z-index: 5;
+  grid-row: 1;
+}
+
+.react3 {
+  grid-column: 1 / span 8;
+  z-index: 6;
+  grid-row: 1;
+  padding-top: 35%;
+}
+
