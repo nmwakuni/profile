@@ -21,40 +21,20 @@ export default async function Home() {
             className="rounded-full border border-gray-500 w-full"
           />
         </div>
-        <div className="text-xl bg-gray-800 bg-opacity-80">
-          <p className="px-5 text-justify mx-8 my-8 text-gray-200">
-            I pride myself in doing the utmost best for my customers. It always
-            gives me joy to see the smiles on my clients after delivering on
-            their assignments and more. I&apos;d like to believe that the more
-            effort i put in building applications, the more I learn and broaden
-            my knowledge about Web Development. Let&apos;s build websites
-            together!!
+
+        <div className="bg-green-500 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+          <h2 className="text-2xl md:regular-32 2xl:regular-64 capitalize text-white">
+            <strong>Need a website</strong> And Don&apos;t know where to start?
+          </h2>
+          <p className="text-xl xl:regular-20 mt-5 text-white">
+            Let&apos;s have a chat. I pride myself in doing the utmost best for
+            my customers. It always gives me joy to see the smiles on my clients
+            after delivering on their assignments and more. I&apos;d like to
+            believe that the more effort i put in building applications, the
+            more I learn and broaden my knowledge about Web Development.
+            Let&apos;s build websites together!!
           </p>
         </div>
-      </div>
-      <h2 className="mt-10 font-bold text-gray-200 text-3xl">My Projects</h2>
-
-      <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project) => (
-          <Link
-            href={`/projects/${project.slug}`}
-            key={project._id}
-            className="border-2 border-gray-500 rounded-lg p-1 hover:scale-105 hover:border-blue-500 transition"
-          >
-            {project.image && (
-              <Image
-                src={project.image}
-                alt={project.name}
-                width={750}
-                height={300}
-                className="object-cover rounded-lg border border-gray-500"
-              />
-            )}
-            <div className="mt-2 text-2xl font-extrabold  text-orange-300">
-              {project.name}
-            </div>
-          </Link>
-        ))}
       </div>
     </div>
   );

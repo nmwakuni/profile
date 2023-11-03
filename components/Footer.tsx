@@ -6,58 +6,56 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col w-100 bg-gray-800 opacity-80 py-18 justify-between items-center md:flex-row text-white">
-      <div className="m-auto max-w-screen-xl grid md:grid-cols-2 gap-10">
-        <div className="h-full max-w-full flex flex-col p-4">
-          <div className="text-xl">
+    <footer className="flex flex-col h-full border rounded-2xl border-gray-800 overflow-hidden w-100 bg-black bg-opacity-40 justify-between items-center md:flex-row text-white">
+      <div className=" max-container relative flex w-full py-6 flex-col-reverse justify-between  overflow-hidden bg-pattern bg-cover bg-center bg-no-repeat px-6 text-white lg:flex-row sm:gap-12 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xlgrid md:grid-cols-2 gap-10">
+        <div className=" flex justify-center items-center flex-col p-4">
+          <div className="text-xl flex">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div className="flex mb-3">
-              <p className="leading-7">Mombasa, Coast.</p>
-              <p>Kenya</p>
+              <p className="leading-7">Mombasa, Coast, Kenya</p>
             </div>
           </div>
-          <div>
-            <h4 className="pb-3 text-xl">
-              <FaPhone
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
-              +254-736-808-925
-            </h4>
+          <div className="flex">
+            <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <div className="text-xl pb-3">
+              <p>+254-736-808-925</p>
+            </div>
           </div>
-          <div>
-            <h4 className="pb-3 text-xl">
-              <FaMailBulk
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+          <div className="flex">
+            <FaMailBulk
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <div className="text-xl pb-3">
+              <p>nmwakuni@gmail.com</p>
+            </div>
+          </div>
+          <div className="flex flex-col p-4">
+            <div className="mt-4 flex">
+              <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+                className="cursor-pointer"
               />
-              nmwakuni@gmail.com
-            </h4>
+              <FaTwitter
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+                className="cursor-pointer"
+              />
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+                className="cursor-pointer"
+              />
+            </div>
           </div>
         </div>
-        <div className="max-w-full h-full flex flex-col p-4">
-          <h4 className="pb-3 text-2xl">About me.</h4>
-          <p className="texl-2xl">
-            My name is Nicholas Mwakuni, founder and CEO of TechNiQ Co. Ltd. My
-            goal is to build highly interactive and responsive web applications.
-          </p>
-          <div className="mt-4 flex">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-          </div>
+        <div className="flex flex-1 items-center justify-center">
+          <Image src="/phone.jpg" alt="phones" width={550} height={300} />
         </div>
       </div>
     </footer>

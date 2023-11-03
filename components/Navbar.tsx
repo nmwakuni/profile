@@ -9,11 +9,11 @@ const Navbar = async () => {
   return (
     <header className="flex flex-col sm:flex-row items-center justify-between w-full">
       <div>
-        <Link href="/" className="text-gray-200 text-3xl font-bold">
+        <Link href="/" className="text-gray-200 text-4xl font-bold">
           Portfolio
         </Link>
       </div>
-      <div className="flex items-center gap-5 text-lg hover:text-gray-300 font-bold text-gray-200">
+      <div className="flex items-center gap-5 text-xl hover:text-gray-300 font-bold text-gray-200">
         <Link href="/">Home</Link>
         <Link href="/projectspage">Projects</Link>
         <Link href="/contact">Contact</Link>

@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className=" h-full w-full relative">
-      <div className="w-full h-screen relative after:content-[''] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black after:opacity-80">
+      <div className="w-full h-screen relative after:content-[''] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black after:opacity-30">
         <Image
           src="/bg2.jpg"
           width={450}
@@ -23,7 +23,7 @@ const Hero = () => {
             </button>
           </Link>
           <Link href="/contact">
-            <button className="text-white font-bold py-2 px-4 border border-white ml-1">
+            <button className="text-white hover:bg-gray-500 bg-gray-600 font-bold py-2 px-4 border border-white ml-1">
               {" "}
               CONTACT
             </button>

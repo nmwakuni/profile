@@ -38,7 +38,7 @@ export default async function RootLayout({
   return (
     <html
       lang="en"
-      className="bg-black min-h-screen mx-auto py-4 {`${josefin.variable} font-wdc`}"
+      className="bg-black bg-opacity-90 min-h-screen mx-auto py-4 {`${josefin.variable} font-wdc`}"
     >
       <body className="max-w-80 mx-auto {`${josefin.variable} font-wdc`}">
         <Navbar />
