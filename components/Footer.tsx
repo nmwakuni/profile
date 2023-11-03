@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="text-xl flex">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div className="flex mb-3">
-              <p className="leading-7">Mombasa, Coast, Kenya</p>
+              <p className="leading-7">Mombasa, Kenya</p>
             </div>
           </div>
           <div className="flex">
