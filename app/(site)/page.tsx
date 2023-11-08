@@ -7,8 +7,8 @@ export default async function Home() {
   const projects = await getProjects();
 
   return (
-    <div>
-      <div>
+    <div className="">
+      <div className="">
         <Hero />
       </div>
       <div className="flex md:flex-row flex-col gap-8 mt-8">

@@ -7,7 +7,7 @@ import Image from "next/image";
 const Navbar = async () => {
   const pages = await getPages();
   return (
-    <header className="flex flex-col sm:flex-row items-center justify-between w-full">
+    <header className="flex flex-col md:flex-row items-center justify-between w-full">
       <div>
         <Link href="/" className="text-gray-200 text-4xl font-bold">
           TechNiQ

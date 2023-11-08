@@ -48,5 +48,7 @@ const projectspaje = async () => {
 
 export default projectspaje;
 
+export const revalidate = 60;
+
 //before:content-[''] before:bg-[url(/bg4.jpg)] before:bg-cover before:bg-center before:w-full before:h-full before:absolute before:top-0 before:left-0 before:-z-1//
 

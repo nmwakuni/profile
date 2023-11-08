@@ -17,6 +17,7 @@ const config: Config = {
       },
       zIndex: {
         "-1": "-1",
+        "-3": "-3",
         "-10": "-10",
       },
       fontFamily: {
