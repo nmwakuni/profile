@@ -7,7 +7,7 @@ const projectspaje = async () => {
   const projects = await getProjects();
   return (
     <div className="h-full w-full">
-      <div className="w-full h-screen bg-opacity-40 mb-5 bg-black relative before:content-[''] before:bg-bg-img-4 before:bg-cover before:bg-no-repeat before:bg-center before:w-full before:h-full before:absolute before:top-0 before:left-0 before:-z-1">
+      <div className="w-full h-screen bg-opacity-30 mb-5 bg-black relative before:content-[''] before:bg-bg-img-4 before:bg-cover before:bg-no-repeat before:bg-center before:w-full before:h-full before:absolute before:top-0 before:left-0 before:-z-1">
         <div className="text-white w-full h-full flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold">Projects</h1>
           <p className="text-2xl font-bold text-center px-10">
